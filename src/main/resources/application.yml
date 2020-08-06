@@ -1,0 +1,39 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: -1
+  jackson:
+    time-zone: GMT+8
+  datasource:
+    url: jdbc:mysql://172.19.240.176:3306/db_chatmovie?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&allowMultiQueries=true
+    username: root
+    password: Mysql123..
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      #更新数据表结构
+      ddl-auto: update
+      #控制台显示sql
+    show-sql: true
+  rabbitmq:
+    host: 172.19.240.176
+
+  redis:
+    host: 172.19.240.176
+    password: Myredis123..
+    timeout: 10000
+    jedis:
+      pool:
+        max-wait: -1
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+aliyun:
+  msg:
+    accessKeyId: LTAI4Fsw5dCbZGrgMZsbRGwp
+    accessKeySecret: bR0IG9XOlvPfDmHNhao7iSzbFZBefY
+
+uoload:
+  hostname:root
+
+
