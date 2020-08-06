@@ -30,8 +30,8 @@ spring:
         min-idle: 0
 aliyun:
   msg:
-    accessKeyId: LTAI4Fsw5dCbZGrgMZsbRGwp
-    accessKeySecret: bR0IG9XOlvPfDmHNhao7iSzbFZBefY
+    accessKeyId:
+    accessKeySecret:
 
 uoload:
   hostname:root
